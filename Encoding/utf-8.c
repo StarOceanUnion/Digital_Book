@@ -9,7 +9,7 @@ static T_EncodingOpr g_tUtf8EncodingOpr = {
     .name = "utf-8",
     .iHeadLen = 3,
     .isSupport = isUtf8Coding,
-    .GetCodeFrmBuf = Utf8GetCodeFrmBuf;
+    .GetCodeFrmBuf = Utf8GetCodeFrmBuf,
 };
 
 

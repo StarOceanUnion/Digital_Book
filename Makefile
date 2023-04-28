@@ -9,18 +9,18 @@ CC 	:= $(CROSSCOMPILE)gcc
 LD 	:= $(CROSSCOMPILE)ld
 
 OBJS := main.o \
-			display/disp_manager.o        \
-			display/fb.o                  \
-			encoding/ascii.o              \
-			encoding/utf-16be.o           \
-			encoding/encoding_manager.o   \
-			encoding/utf-8.o              \
-			encoding/utf-16le.o           \
-			draw/draw.o                   \
-			fonts/ascii.o                 \
-			fonts/gbk.o                   \
-			fonts/freetype.o              \
-			fonts/fonts_manager.o
+			Display/disp_manager.o        \
+			Display/fb.o                  \
+			Encoding/ascii.o              \
+			Encoding/utf-16be.o           \
+			Encoding/encoding_manager.o   \
+			Encoding/utf-8.o              \
+			Encoding/utf-16le.o           \
+			Draw/draw.o                   \
+			Fonts/ascii.o                 \
+			Fonts/gbk.o                   \
+			Fonts/freetype.o              \
+			Fonts/fonts_manager.o
 
 all: $(OBJS)
 	$(CC) $(LDFLAGS) -o show_file $^

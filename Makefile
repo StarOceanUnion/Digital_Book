@@ -1,4 +1,4 @@
-CROSSCOMPILE := arm-linux-
+CROSSCOMPILE := arm-buildroot-linux-gnueabihf-
 
 CFLAGS 	:= -Wall -O2 -c
 CFLAGS  += -I$(PWD)/include

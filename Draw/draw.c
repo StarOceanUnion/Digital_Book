@@ -9,6 +9,7 @@
 #include <fonts_manager.h>
 #include <disp_manager.h>
 #include <string.h>
+#include <stdlib.h>
 
 
 
